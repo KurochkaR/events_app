@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+{% block content %}
+<form method="post">
+<center>
+    <h2>{{title}}</h2>
+  {% csrf_token %}
+  <div class="form-group col-md-5">
+  {{form.as_p}}
+  </div>
+  <button type="submit" class="btn btn-secondary">{{button}}</button>
+  <p class="text-center">If you have an account, <a href="{% url 'rest_framework:login' %}">login</a> instead.</p>
+  {% if messages %}
+  {% for message in messages %}
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    {{ message }}
+  </div>
+{% endfor %}
+  {% endif%}
+</center>
+</form>
+{% endblock %}

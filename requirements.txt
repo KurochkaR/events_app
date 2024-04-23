@@ -1,0 +1,6 @@
+django
+djangorestframework
+django-extensions # Added for upload db from script not nessesary
+python-dotenv # usefull for getting some secrets from env file
+dj-database-url # Added for parse db_url not nessesary can use only dotenv
+psycopg2-binary # needed for run project using postgresql database

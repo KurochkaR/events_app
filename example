@@ -1,0 +1,9 @@
+POSTGRES_DB="events_db"
+POSTGRES_USER="events_user"
+POSTGRES_PASSWORD="pass"
+DEBUG=1
+SECRET_KEY='django-insecure-n+_r21z3lu!y8t46l(3knx9r%-f=ia5=ro@e++34nnlvsdd9od'
+DATABASE_URL="postgres://events_user:pass@postgres:5432/events_db"
+ALLOWED_HOSTS="127.0.0.1 0.0.0.0 localhost"
+EMAIL_PASSWORD="fnjq yduq udna lehg"
+EMAIL_USER="kurochkar001@gmail.com"
