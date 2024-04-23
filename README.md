@@ -11,3 +11,4 @@
 10. Use http://localhost/api/events/ to look list events
 11. Use http://localhost/api/events/<int:pk> to look some event
 12. Send post to http://localhost/api/events/<int:pk> for register into event
+13. Run tests using command docker exec -it web_events python3 manage.py test
